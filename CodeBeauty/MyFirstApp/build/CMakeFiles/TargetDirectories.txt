@@ -1,0 +1,3 @@
+/home/andrew/Documentos/C++/CodeBeauty/MyFirstApp/build/CMakeFiles/rebuild_cache.dir
+/home/andrew/Documentos/C++/CodeBeauty/MyFirstApp/build/CMakeFiles/edit_cache.dir
+/home/andrew/Documentos/C++/CodeBeauty/MyFirstApp/build/CMakeFiles/FirstApp.dir
