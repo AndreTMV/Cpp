@@ -1,0 +1,21 @@
+list as abstract data type
+static list can:
+store a given number of elements of a given data-type
+write/modigy element at a position
+read element at a position
+
+new dynamic list:
+empty list has 0
+insert 
+remove
+count
+read/write/modify element at a position
+specify data-type
+
+cost of operations
+access-read/write element at an index -> constant time O(1)
+Insert -> O(n)
+Remove -> O(n)
+Add -> O(n)
+
+bad use of memory -> better linked lists

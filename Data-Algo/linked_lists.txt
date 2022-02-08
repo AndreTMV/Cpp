@@ -1,0 +1,25 @@
+struct node{
+  int data; 4 bytes
+  node* next; 4 bytes
+}
+head = first element of the linked list and address of the head node
+gives us acces of the complete list
+we can't acces elements in constan time (O(1))
+access to elements -> O(n)
+insertion -> O(n)
+no memory un-used
+
+------------------------------------------------------------------------
+
+array vs linked lists:
+1)cost of accesing an elements: array -> O(1) | linked list -> O(n)
+*array better choice if you want to acces elements
+2)memory requirements:
+array -> fixed size, memory may not be available as one large block
+linked list -> no un-used memory, but extra memory for pointer variables,
+memory may be available as a multiple small blocks
+3)cost of inserting/deleting an element
+a)at beginning: array -> O(n) | linked list -> O(1)
+b)at end: array -> O(1) -if array is not full -else O(n) array full |linked list -> O(n)
+c)at ith position: array -> O(n) | linked list -> O(n)
+4)Ease of use: array is easier to implement than linked list
