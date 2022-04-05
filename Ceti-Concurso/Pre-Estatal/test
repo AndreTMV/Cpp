@@ -1,0 +1,30 @@
+2
+.#
+.#
+
+
+  cout << "J antes de incrementar: " << maximo_j << " " << minimo_j << "\n";
+  cout << "I antes de incrementar: " << maximo_i << " " << minimo_i << "\n";
+  maximo_j++;
+  maximo_i++;
+  cout << "J despues de incrementar: " << maximo_j << " " << minimo_j << "\n";
+  cout << "I despues de incrementar: " << maximo_i << " " << minimo_i << "\n";
+
+  int horizontal = maximo_j - minimo_j;
+  cout << "horizontal = maximo(" << maximo_j << ") - minimo(" << minimo_j
+       << ") = " << maximo_j - minimo_j << "\n";
+  int vertical = maximo_i - minimo_i;
+  cout << "vertical = maximo(" << maximo_i << ") - minimo(" << minimo_i
+       << ") = " << maximo_i - minimo_i << "\n";
+
+  if (horizontal > vertical)
+    area = horizontal * horizontal;
+  else
+    area = vertical * vertical;
+  total = area - vacios;
+  cout << "minimo horizontal: " << minimo_j
+       << ", maximo horizontal: " << maximo_j
+       << "\nminimo vertical: " << minimo_i << ", maximo vertical: " << maximo_j
+       << "\nvertical: " << vertical << " horizontal: " << horizontal
+       << " area: " << area << " total: " << total << "\n";
+  cout << area << " " << total << "\n";

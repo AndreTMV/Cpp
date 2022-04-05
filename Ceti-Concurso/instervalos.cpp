@@ -5,15 +5,11 @@ int main() {
   int N = 0, M = 0, I = 0, F = 0;
   cin >> N;
   cin >> M;
-  int arr[N];
-  for (int i = 0; i < N; i++) {
-    arr[i] = 0;
-  }
+  int arr[N] = {};
   for (int i = 0; i < M; i++) {
     cin >> I >> F;
-    while (I < F) {
+    for (; I < F; ++I) {
       arr[I]++;
-      I++;
     }
   }
   for (int i = 0; i < N; ++i) {
